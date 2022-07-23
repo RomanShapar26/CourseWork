@@ -96,7 +96,6 @@ public class NegativTest extends UiBase {
         payPage.shouldImproperFormatNotification();
     }
 
-    //  issue 4
     @Test
     public void shouldSuccessPayIfNameWithNumbers() {
         val cardData = new Data.CardData(getApprovedCardNumber(), getValidMonth(), getValidYear(), getNameWithNumbers(), getCVC());

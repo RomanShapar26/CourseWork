@@ -25,7 +25,6 @@ public class Data {
         String cvv;
     }
 
-    //number
 
     public static String getApprovedCardNumber() {
         return ("1111 2222 3333 4444");
@@ -63,7 +62,6 @@ public class Data {
         return ("");
     }
 
-    //month
 
     public static String getValidMonth() {
         LocalDate localDate = LocalDate.now();
@@ -94,7 +92,6 @@ public class Data {
         return ("");
     }
 
-    //year
 
     public static String getValidYear() {
         return String.format("%ty", Year.now());
