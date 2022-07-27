@@ -9,7 +9,7 @@ import page.PayPage;
 
 import static data.Data.*;
 
-public class NegativTest extends UiBase {
+public class NegativTest {
 
     MainPage mainPage = new MainPage();
     PayPage payPage = new PayPage();
